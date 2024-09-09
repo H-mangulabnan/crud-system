@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+
+html body {
+    min-height: 100vh;
+    display: flex;
+    background-color: rgb(122, 107, 122);
+}
+
+.box {
+    max-width: 425px;
+    height: 600px;
+    margin: auto;
+    background-color: #E9C0FA;
+    overflow: hidden;
+    border-radius: 20px;
+}
+@media  (max-width:500px) {
+    .box {
+        height: 100vh;
+        border-radius: 0;
+    }
+}
+.logoImage {
+    height: 85px;
+    width: 100%;
+    justify-content: center;
+    background-color: whitesmoke;    
+}
+.logoImage img {
+    height: 100%;
+}
+
+
+
+
+

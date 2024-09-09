@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+html body {
+    min-height: 100vh;
+    display: flex;
+    background-color: rgb(122, 107, 122);
+}
+
+.box {
+    max-width: 425px;
+    height: 600px;
+    margin: auto;
+    background-color: #E9C0FA;
+    overflow: hidden;
+    border-radius: 20px;
+}
+@media  (max-width:500px) {
+    .box {
+        height: 100vh;
+        border-radius: 0;
+    }
+}
+.logoImage {
+    height: 85px;
+    width: 100%;
+    justify-content: center;
+    background-color: whitesmoke;    
+}
+.logoImage img {
+    height: 100%;
+}
+.users {
+    background-color: whitesmoke;
+}
+h1 {
+    margin-bottom: 0 !important;
+}
+
+.myTable {
+    width: 100%;
+    height: auto;
+    table-layout: auto;
+    background-color: #E9C0FA;
+
+}
+.myTable thead {
+    background-color: #D1A0E3; /* Background color for table header */
+}
+
+.myTable th, .myTable td {
+    word-wrap: break-word; /* Prevent content from overflowing */
+    overflow-wrap: break-word; /* Allow breaking of long words */
+    padding: 8px; /* Add padding to cells */
+}
+
+.myTable a {
+    text-decoration: none;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Add space between buttons */
+}
+
+button.btn {
+    border-radius: 100px;
+    padding: 6px 15px;
+}
+
+.btn-primary {
+    background-color: #FA9EE1;
+    border: none;
+    color: black;
+    font-family: 'Concert One', sans-serif;
+}
+
+.btn-danger {
+    background-color: #DC3545;
+    border: none;
+    color: white;
+    font-family: 'Concert One', sans-serif;
+}
+
+.text-center a {
+    font-size: 14px;
+    color: rgb(79, 79, 255);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.text-center a:hover {
+    text-decoration: underline;
+}
+
